@@ -1,0 +1,60 @@
+/* HEADER */
+h1{
+    text-align: center;
+    border-style: inherit;
+    border-color: bisque;
+}
+
+/* BODY */  
+body{
+/* Regla de CSS */
+/*Propiedad: valor */
+    background-color:burlywood;
+}
+
+/*EJEMPLOS*/
+.ejemplo{
+    height:400px;
+    width:900px;
+    background-color: mistyrose;
+
+}
+
+.displayBlock{
+    display: block;
+    background-color: palevioletred;
+}
+
+
+.displayBlockconTamanio{
+    display: block;
+    background-color: mediumseagreen;
+    
+    height: 100px;
+    width: 100px;
+}
+
+.displayInline{
+    display: inline;
+    background-color: skyblue;
+}
+
+.displayInlineconTamanio{
+    display: inline;
+    background-color: skyblue;
+    height: 100px;
+    width: 100px;
+}
+
+.displayInlineblock{
+    display: inline-block;
+    background-color: sandybrown;
+}
+
+.displayInlineblock{
+    display: inline-block;
+    background-color: sandybrown;
+    
+    height: 100px;
+    width: 100px;
+}

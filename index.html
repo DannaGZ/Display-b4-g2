@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!---Etiquetas semánticas-->
+    <!--- HEADER: Etiqueta semántica para la cabecera del contenido.-->
+    <header>
+
+    </header>
+
+    <!--- MAIN: Etiqueta semántica para el contexto principal.-->
+    <main>
+        <h1 id="titulo"">DISPLAY: ES LO QUE MOSTRAMOS EN NUESTRA PANTALLA.</h1>
+        <article id="displayNone">
+            <h2> Display None</h2>
+            <p> Este tipo de display es especial porque nos permite dejar de visualizar contenido dentro de mi sitio. </p>
+            <p> Cuando ocupamos un display none, las etiquetas dejan de verse pero el código sigue ahí.</p>
+        </article>
+
+        <article id="displayBlock">
+            <h2>Display Block</h2>
+            <p> El elemento genera un cuadro de elemento de bloque.</p>
+            <p> Significa que mi bloque recuerda que todo en HTML es un bloque y ocupa todo el espacio disponible de izquierda a derecha; o dicho de otra forma, todo el renglón dentro del componente padre.</p>
+            <figure class="ejemplo">
+                <h1 class="displayBlock">
+                    H1
+                </h1>
+                <h1 class="displayBlock">
+                    H1
+                </h1>
+            </figure>
+        </article>
+
+        <article id="displayInline">
+            <h2>Display Inline</h2>
+            <p> El elemento genera uno o más cuadros de elemento en línea.</p>
+            <p> Significa que el contenedor o bloque se adapta al ancho de su contenido hijo.</p>
+            <figure class="ejemplo">
+                <h1 class="displayInline">
+                    H1
+                </h1>
+                <h1 class="displayInline">
+                    H1
+                </h1>
+            </figure>
+        </article>
+
+        <article id="displayInlineBlock">
+            <h2>Display Inline-Block</h2>
+            <p> Si tu le pones tamaño a un display block este funciona pero, sigue ocupando todo el renglón.</p>
+            <figure class="ejemplo">
+            <p> Si tu le pones tamaño a un display inline, este ignora las propiedades de alto (height) y ancho (width).</p>
+                <h1 class="displayBlockconTamanio">
+                    H1
+                </h1>
+                <h1 class="displayBlockconTamanio">
+                    H1
+                </h1>
+            </figure>
+            <p>Esto puede ser problemático si yo quiero controlar el tamaño de mi componente y que el contenido esté en la misma línea, para eso existe el display inline block.</p>
+
+            <figure class="ejemplo">
+                    <h1 class="displayInlineblock">
+                        H1
+                    </h1>
+                    <h1 class="displayInlineblock">
+                        H1                
+                    </h1>
+            </figure>
+        </article>
+
+        <article>
+            <header style="background-color: azure;">
+                <nav style="background-color: blanchedalmond;">Nav</nav>
+            </header>
+            <main style="background-color: cornflowerblue;">
+                <article class="displayInlineblock" style="background-color:seashell;">Article</article>
+                <article class="displayInlineblock"  style="background-color: beige;">Article</article>
+                <article class="displayInlineblock"  style="background-color: beige;">Article</article>
+                <article class="displayInlineblock" style="background-color: bisque;"> Article</article>
+                <article class="displayInlineblock"  style="background-color: cornflowerblue;">Footer</article>
+            </main>
+            <footer>
+
+            </footer>
+        </article>
+
+<!-- Flex y Grid son para los hijos -->
+    </main>
+
+    <!--- FOOTER: Etiqueta semántica para pie de página.-->
+    <footer>
+
+    </footer>
+
+</body>
+</html>
